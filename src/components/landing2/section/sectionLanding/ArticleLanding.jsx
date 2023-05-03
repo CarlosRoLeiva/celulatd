@@ -9,10 +9,10 @@ export default function ArticleLanding(props) {
         <div className='landing-card'>
             <div className='landing-card-img'>
                 <div>
-                    <img src={svgArticle} alt='' />
+                    <img src={svgArticle} alt='imagen del articulo' />
                 </div>
                 <div>
-                <img src={imgArticle} alt='' />
+                <img src={imgArticle} alt='imagen del articulo' />
                 </div>
             </div>
             <div className='landing-card-text'>

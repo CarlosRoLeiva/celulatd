@@ -11,8 +11,8 @@ export default function Header({ userName }) {
   return (
     <header className="header-container">
       <div className="header-container-logo">
-        <img src={LogoSvg} alt="logo-header" className="header-logo" />
-        <img src={FraseSvg} alt="fraselogo" className="header-logo" />
+        <img src={LogoSvg} alt="logo desafio latam" className="header-logo" />
+        <img src={FraseSvg} alt="academia de talentos digitales" className="header-logo" />
       </div>
       <div className="user-container">
         <img src={avatar} alt="Profile" className="profile-pic" />

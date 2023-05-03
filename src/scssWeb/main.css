@@ -51,11 +51,9 @@ img, picture, video, iframe, figure {
   width: 100%;
   display: block;
   /* (Opcional) */
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   /* (Opcional) */
-  -o-object-position: center center;
-     object-position: center center;
+  object-position: center center;
 }
 
 /* Reseteamos los enlaces para funcionar como cajas... */
@@ -97,10 +95,6 @@ blockquote:before, blockquote:after, q:before, q:after {
 }
 
 /* (Opcional) Configuramos el texto que seleccionamos */
-::-moz-selection {
-  background-color: var(--negro);
-  color: var(--blanco);
-}
 ::selection {
   background-color: var(--negro);
   color: var(--blanco);
@@ -110,15 +104,12 @@ blockquote:before, blockquote:after, q:before, q:after {
 form, input, textarea, select, button, label {
   font-family: inherit;
   font-size: inherit;
-  -webkit-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
   background-color: transparent;
   color: inherit;
   display: block;
   /* (Opcional) */
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  appearance: none;
 }
 
 /* Reseteamos las tablas */
@@ -141,8 +132,7 @@ body {
   font-family: var(--tipo-principal);
   color: var(--negro);
   /* (Opcional) */
-  -webkit-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
   /* (Opcional) */
   font-smooth: always;
   /* (Opcional) */
@@ -482,6 +472,7 @@ body h3 {
 }
 
 .recive_input-height {
+  background: rgba(7, 59, 58, 0.2509803922);
   height: 200px;
   overflow-y: scroll;
 }
@@ -491,6 +482,7 @@ body h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
 }
 .imagen-uploader button {
   display: flex;
@@ -1620,7 +1612,6 @@ a.Link {
 .message-box {
   background: rgba(7, 59, 58, 0.2509803922);
   width: 100vw;
-  height: -moz-min-content;
   height: min-content;
   overflow: scroll;
   margin-left: 11px;
@@ -1654,6 +1645,8 @@ a.Link {
 .message-icons {
   display: flex;
   justify-content: end;
+  margin-right: 5%;
+  margin-bottom: 1%;
 }
 .message-icons button {
   width: 3%;
@@ -1674,12 +1667,6 @@ a.Link {
   .trash-img {
     width: 88%;
     margin-top: 3px;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .message-icons button {
-    width: 3%;
-    margin-right: 3%;
   }
 }
 

@@ -18,7 +18,7 @@ export default function InputLading() {
             aria-describedby="basic-addon2"
           />
           <Button variant="outline-secondary" className="button-addon2">
-            <img src={iconlupa} alt=''/>
+            <img src={iconlupa} alt='imagen buscar'/>
           </Button>
         </InputGroup>
 

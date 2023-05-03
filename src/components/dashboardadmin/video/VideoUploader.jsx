@@ -58,7 +58,7 @@ const VideoUploader = () => {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={UploadSvg} />
+        <img className="svg-img-barra" src={UploadSvg} alt="Subir Videos"/>
         <h2>SUBIR RECURSOS</h2>
       </div>
       <div className="container-body-all">
@@ -88,7 +88,7 @@ const VideoUploader = () => {
         </div>
         <div className="imagen-uploader">
           <button onClick={handleUploadClick}>
-            <img className="imagen-button" src={Uploadbutton} alt=""></img>
+            <img className="imagen-button" src={Uploadbutton} alt="enviar"></img>
             <h2>Enviar</h2>
           </button>
           <input type="file" onChange={handleFileInputChange} />

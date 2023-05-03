@@ -21,11 +21,11 @@ function NavbarComponent() {
           <div className="navbar-admin-all">
             {" "}
             <Link to="/Inicio">
-              <img src={HomeWSvg} alt="paguina principal admin" />
+              <img src={HomeWSvg} alt="pagina principal admin" />
               <Nav.Link href="/Inicio"></Nav.Link>
             </Link>
             <Link to="/SetingAdmin">
-              <img src={AjusteWt} alt="paguina de ajustes" />
+              <img src={AjusteWt} alt="pagina de ajustes" />
               <Nav.Link href="/SetingAdmin"></Nav.Link>
             </Link>
             <Link to="/Statistics">

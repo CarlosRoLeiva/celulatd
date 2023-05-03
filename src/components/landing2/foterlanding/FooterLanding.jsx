@@ -14,16 +14,16 @@ export default function FooterLanding() {
         <div className="logo-and-title">
           <hr />
           <div className="logo-footer">
-            <img src={logo3} alt='' />
+            <img src={logo3} alt='Logo Academia' />
           </div>
         </div>
         <div className="redes">
           <h2>NUESTRAS REDES SOCIALES</h2>
           <br />
           <div className="icon-redes">
-            <img src={facebook} alt='' />
-            <img src={twitter} alt='' />
-            <img src={instagram} alt='' />
+            <img src={facebook} alt='facebook' />
+            <img src={twitter} alt='twitter' />
+            <img src={instagram} alt='instagram' />
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function FooterLanding() {
         <h2>SUSCRÍBETE Y RECIBE NUESTRO BOLETÍN QUINCENAL </h2>
         <div className="ico-imput">
           <button className="caja-icono">
-            <img className="iconofotter" src={drafts} alt='' />
+            <img className="iconofotter" src={drafts} alt='imagen de boletin' />
           </button>
           <InputHero />
         </div>

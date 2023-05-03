@@ -50,7 +50,7 @@ export default function Message() {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={MensajeSvg} />
+        <img className="svg-img-barra" src={MensajeSvg} alt="mensajes"/>
         <h2>MENSAJES</h2>
       </div>
       <div className=" container-body-all">

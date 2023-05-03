@@ -34,6 +34,7 @@
     height: 40px;
   }
   .recive_input-height {
+    background: $usergeenligth;
     height: 200px;
     overflow-y: scroll;
   }
@@ -43,6 +44,7 @@
     flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin-top: 15px;
     button {
       display: flex;
       flex-direction: column;

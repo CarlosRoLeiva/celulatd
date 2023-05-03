@@ -67,7 +67,7 @@ export default function ListDocument() {
             <div className="container-componentvideo_body">
               <div className="document-flex" key={article.id}>
                 <Link to="/Inicio">
-                  <img className="img-doc" src={imagenpdf} alt="" />
+                  <img className="img-doc" src={imagenpdf} alt="documento" />
                   <Nav.Link href="/#"></Nav.Link>
                 </Link>
                 <div className="document-text">

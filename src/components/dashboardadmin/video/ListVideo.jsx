@@ -62,8 +62,9 @@ const ListVideo = (props) => {
               <div className="body-button-edit-all">
                 <button onClick={() => handleDelete(video.id)}>Eliminar</button>
                 <button
+                  
                   onClick={() => console.log(`Editando video ${video.id}`)}>
-                  Editar
+                  Editar 
                 </button>
               </div>
             </div>

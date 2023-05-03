@@ -43,7 +43,7 @@ export default function TrashMessageUser() {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={MensajeSvg} alt="img-barra-msj" />
+        <img className="svg-img-barra" src={MensajeSvg} alt="imagen de mensaje" />
         <h2>PAPELERA</h2>
       </div>
       <div className="container-body-message">

@@ -77,7 +77,7 @@ export default function ListMessage() {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={MensajeSvg} alt="" />
+        <img className="svg-img-barra" src={MensajeSvg} alt="mensajes" />
         <h2>MENSAJES</h2>
       </div>
       <div className="container-body-message">

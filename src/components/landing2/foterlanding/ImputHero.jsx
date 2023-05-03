@@ -18,7 +18,7 @@ export default function InputHero() {
             aria-describedby="basic-addon2"
           />
           <Button variant="outline-secondary" className="button-addon2">
-            <img src={iconlupa} />
+            <img src={iconlupa} alt='imagen de buscar'/>
           </Button>
         </InputGroup>
 

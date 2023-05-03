@@ -59,7 +59,7 @@ export default function VideoUploader() {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={UploadSvg} alt="" />
+        <img className="svg-img-barra" src={UploadSvg} alt="Subir Documentos" />
         <h2>SUBIR DOCUMENTO</h2>
       </div>
       <div className="container-body-all">
@@ -88,7 +88,7 @@ export default function VideoUploader() {
         </div>
         <div className="imagen-uploader">
           <button onClick={handleUpload}>
-            <img className="imagen-button" src={Uploadbutton} alt=""></img>
+            <img className="imagen-button" src={Uploadbutton} alt="Boton enviar"></img>
             <h2>Enviar</h2>
           </button>
           <input type="file" onChange={handleFileInputChange} />

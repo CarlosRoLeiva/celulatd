@@ -77,7 +77,7 @@ export default function ListMessageUser() {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={MensajeSvg} alt="" />
+        <img className="svg-img-barra" src={MensajeSvg} alt="imagen de mensaje" />
         <h2>MENSAJES</h2>
       </div>
       <div className="container-body-message">

@@ -33,7 +33,7 @@ export default function ListDocumentUser() {
       <Header />
       <NavbarComp />
       <div className="barra">
-        <img className="svg-img-barra" src={RecursosSvg} alt="" />
+        <img className="svg-img-barra" src={RecursosSvg} alt="imagen de recursos" />
         <h2>RECURSOS</h2>
       </div>
       <div className="container-body-all">
@@ -46,7 +46,7 @@ export default function ListDocumentUser() {
             <div className="container-componentvideo_body">
               <div className="document-flex" key={article.id}>
                 <Link to="/Inicio">
-                  <img className="img-doc" src={imagenpdf} alt="" />
+                  <img className="img-doc" src={imagenpdf} alt="imagen de documento" />
                   <Nav.Link href="/#"></Nav.Link>
                 </Link>
                 <div className="document-text">
